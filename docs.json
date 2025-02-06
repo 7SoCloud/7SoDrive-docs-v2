@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "7SoCloud",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,44 +11,26 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "文档",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "开始使用",
             "pages": [
               "introduction",
               "quickstart",
               "development"
             ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "用户协议",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "用户协议",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
+              "UserAgreement/UserAgreementAndDisclaimer",
+              "UserAgreement/UserPrivacyPolicy"
             ]
           }
         ]
@@ -57,19 +39,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "anchor": "七嗖云盘",
+          "href": "https://pan.7so.top",
           "icon": "slack"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "银杏云盘",
+          "href": "https://cloud.7so.top",
+          "icon": "slack"
         }
       ]
     }
@@ -81,21 +58,21 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "QQ交流群",
+        "href": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=9PcNzzBM7Txr7K6CHwfoTHZfXjceVjh7&authKey=axiW71hY%2FVu9fm6lyqYqd3bT6kOVLdqPyx%2Flv58sK9auDMdonTWnRLbl8z3%2BeSns&noverify=0&group_code=914650163"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "立即使用",
+      "href": "https://pan.7so.top"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://pan.7so.top",
+      "x": "https://x.com/7sodrive",
+      "github": "https://github.com/7SoCloud",
     }
   }
 }

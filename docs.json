@@ -1,78 +1,78 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "7SoCloud",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "文档",
-        "groups": [
-          {
-            "group": "开始使用",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "7SoCloud",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "文档",
+                "groups": [
+                    {
+                        "group": "开始使用",
+                        "pages": [
+                            "introduction",
+                            "quickstart",
+                            "development"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "用户协议",
+                "groups": [
+                    {
+                        "group": "用户协议",
+                        "pages": [
+                            "UserAgreement/UserAgreementAndDisclaimer",
+                            "UserAgreement/UserPrivacyPolicy"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "七嗖云盘",
+                    "href": "https://pan.7so.top",
+                    "icon": "slack"
+                },
+                {
+                    "anchor": "银杏云盘",
+                    "href": "https://cloud.7so.top",
+                    "icon": "slack"
+                }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "用户协议",
-        "groups": [
-          {
-            "group": "用户协议",
-            "pages": [
-              "UserAgreement/UserAgreementAndDisclaimer",
-              "UserAgreement/UserPrivacyPolicy"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "七嗖云盘",
-          "href": "https://pan.7so.top",
-          "icon": "slack"
-        },
-        {
-          "anchor": "银杏云盘",
-          "href": "https://cloud.7so.top",
-          "icon": "slack"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "QQ交流群",
+                "href": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=9PcNzzBM7Txr7K6CHwfoTHZfXjceVjh7&authKey=axiW71hY%2FVu9fm6lyqYqd3bT6kOVLdqPyx%2Flv58sK9auDMdonTWnRLbl8z3%2BeSns&noverify=0&group_code=914650163"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "立即使用",
+            "href": "https://pan.7so.top"
+        }
+    },
+    "footer": {
+        "socials": {
+            "website": "https://pan.7so.top",
+            "x": "https://x.com/7sodrive",
+            "github": "https://github.com/7SoCloud"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "QQ交流群",
-        "href": "https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=9PcNzzBM7Txr7K6CHwfoTHZfXjceVjh7&authKey=axiW71hY%2FVu9fm6lyqYqd3bT6kOVLdqPyx%2Flv58sK9auDMdonTWnRLbl8z3%2BeSns&noverify=0&group_code=914650163"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "立即使用",
-      "href": "https://pan.7so.top"
-    }
-  },
-  "footer": {
-    "socials": {
-      "website": "https://pan.7so.top",
-      "x": "https://x.com/7sodrive",
-      "github": "https://github.com/7SoCloud",
-    }
-  }
 }

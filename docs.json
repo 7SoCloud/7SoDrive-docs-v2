@@ -1,6 +1,6 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-    "theme": "mint",
+    "theme": "maple",
     "name": "7SoCloud",
     "colors": {
         "primary": "#16A34A",
@@ -29,8 +29,8 @@
                     {
                         "group": "用户协议",
                         "pages": [
-                            "UserAgreement/UserAgreementAndDisclaimer",
-                            "UserAgreement/UserPrivacyPolicy"
+                            "/UserAgreement/UserAgreementAndDisclaimer",
+                            "/UserAgreement/UserPrivacyPolicy"
                         ]
                     }
                 ]

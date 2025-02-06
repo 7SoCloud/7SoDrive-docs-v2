@@ -16,9 +16,9 @@
                     {
                         "group": "开始使用",
                         "pages": [
-                            "introduction",
-                            "quickstart",
-                            "development"
+                            "introduction.mdx",
+                            "quickstart.mdx",
+                            "development.mdx"
                         ]
                     }
                 ]
@@ -29,8 +29,8 @@
                     {
                         "group": "用户协议",
                         "pages": [
-                            "/UserAgreement/UserAgreementAndDisclaimer",
-                            "/UserAgreement/UserPrivacyPolicy"
+                            "UserAgreement/UserAgreementAndDisclaimer.mdx",
+                            "UserAgreement/UserPrivacyPolicy.mdx"
                         ]
                     }
                 ]
